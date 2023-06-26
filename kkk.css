@@ -1,0 +1,41 @@
+#grade{
+    display:grid;
+    grid-template-areas: 
+    "nav nav header header header"
+    "nav nav section section article"
+    "footer footer section section aside";
+    grid-template-rows: 50px 100px 100px 20px;
+    grid-template-columns: 100px 40px 40px ;
+    grid-gap: 10px;
+}
+
+nav{
+    grid-area: nav;
+    border-radius: 10px ;
+    background-color:violet;
+}
+header{
+    grid-area: header;
+    border-radius: 10px ;
+    background-color: aqua;
+}
+section{
+    grid-area: section;
+    border-radius: 10px ;
+    background-color: blue;
+}
+article{
+    grid-area: article;
+    border-radius: 10px ;
+    background-color: rgb(63, 63, 129);
+}
+footer{
+    grid-area:footer;
+    border-radius: 10px ;
+    background-color: chartreuse;
+}
+aside{
+    grid-area:aside;
+    border-radius: 10px ;
+    background-color: green;
+}

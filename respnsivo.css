@@ -1,0 +1,36 @@
+/*Mobile*/
+#container{
+display: grid;
+grid-template-areas: 
+"header header header" "content content content" "sideBar sideBar sideBar";
+grid-template-columns: repeat(3,100px);
+grid-template-rows: 70px 150px 70px;
+grid-gap: 1rem;
+border-radius: 10px ;
+}
+@media only screen and (min-width: 600px)
+{ #container{
+    grid-template-areas:
+    "header header header"
+    "content content sideBar"
+    "content content sideBar";
+    grid-template-columns: 300px 200px 150px;
+}
+}
+    
+#header{
+    background-color: aqua;
+    grid-area: header;
+    border-radius: 10px ;
+}
+#content{
+    background-color: blue;
+    grid-area: content;
+    border-radius: 10px ;
+}
+#sideBar{
+    background-color: blueviolet;
+    grid-area: sideBar;
+    border-radius: 10px ;
+}
+

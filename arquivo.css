@@ -1,0 +1,44 @@
+.pai{
+border: red solid;
+display: flex;
+flex-direction: column-reverse;
+}
+.filho1{
+height: 100px;
+width: 100px;
+background-color: aqua;
+border: dotted 1px;
+margin: 10px 0px 0px 0px;
+}
+
+.filho2{
+height: 100px;
+width: 100px;
+background-color: rgb(26, 59, 59);
+border: dotted 1px;
+margin: 10px 0px 0px 0px;
+} 
+
+.filho3{
+height: 100px;
+width: 100px;
+background-color: rgb(133, 38, 128);
+border: dotted 1px;
+margin: 10px 0px 0px 0px;
+}
+
+.filho4{
+height: 100px;
+width: 100px;
+background-color: rgb(112, 158, 75);
+border: dotted 1px;
+margin: 10px 0px 0px 0px;
+}
+
+.filho5{
+height: 100px;
+width: 100px;
+background-color: rgb(83, 37, 29);
+border: dotted 1px;
+margin: 10px 0px 0px 0px;
+}

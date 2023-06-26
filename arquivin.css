@@ -1,0 +1,37 @@
+#grade{
+display:grid;
+grid-template-areas: 
+"header header header"
+"nav section section"
+"nav section section"
+"nav footer footer";
+grid-template-rows: 50px 100px 1fr 50px;
+grid-template-columns: 75px 30px;
+}
+header{
+    grid-area: header;
+    text-align: center;
+    background-color: aqua;
+}
+footer{
+    grid-area: footer;
+    background-color: blueviolet
+}
+nav{
+    grid-area: nav;
+    background-color: brown;
+}
+section{
+    grid-area: section;
+    background-color: chartreuse;
+
+}
+
+
+
+
+
+
+.border{
+    border: 1px black solid;
+}
